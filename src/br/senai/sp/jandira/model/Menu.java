@@ -40,8 +40,8 @@ public class Menu {
 
                     battle.scenarioBattle = scenario.selecionarScenario();
                     battle.startBattle(player, enemy);
-
-
+                    player.setVida(100);
+                    enemy.setVida(100);
                     break;
                 case 4:
                     continuar = false;
